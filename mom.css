@@ -1,0 +1,47 @@
+body{
+	background: #008888;
+	display: grid;
+	place-items: center;
+	height: 100vh;
+	margin: 0;
+	font-family: "Segoe Script";
+}
+
+.card{
+	background: #fdfdfd;
+	border-radius: 4px;
+	height: 85vh;
+	width: 85vw;
+	box-shadow: 0 3px 6px rgba(7, 4, 4, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	overflow: hidden;
+}
+
+.next{
+	border-radius: 12px;
+	font-size: 16px;
+	background-color: #008CBA;
+	border: 2px solid #4CAF50;
+	height: 50px;
+	width: 100px;
+}
+
+img.bday{
+	max-height: 40vh;
+	
+}
+
+.muted{
+       font-family: Comic Sans MS;
+}
+
+.quote{
+	font-family: MV Boli;
+}
+
+.space{
+	height: 100px;
+}
